@@ -2,7 +2,7 @@
 <?php
 
 header('Content-type: text/html; charset=utf-8');
-
+require_once('config.php');
 require_once('lib/TeleInfo.php');
 
 $teleInfo = new TeleInfo();
